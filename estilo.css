@@ -1,0 +1,126 @@
+.botao{
+    background-color: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 202px;
+    justify-content: center;
+    color: #F6F5FB;
+    font-family: raleway;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+
+dialog {
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    height: 450px;
+    margin: auto;
+    width: 500px;
+    border: 0px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+dialog .containerbutton{
+    align-items: right;
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+    align-items: center;
+}
+
+#modalImg {
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+dialog::backdrop {
+    background-color: #ffffffb2;
+}
+
+#btnExit {
+    background-color: transparent;
+    color: black;
+    height: 5px;
+    position: relative;
+    margin: 5px 5px auto auto;
+    cursor:pointer;
+    align-items: right;
+}
+
+.modal::backdrop {
+    background-color: #ffffffb2;
+}
+
+.modalTitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.modaltext{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.btnDestaque{
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6F5FB;
+    padding: 10px;
+    opacity: 0;
+}
+
+
+.card:hover .btnOn{
+    opacity: 1;
+}
+
+.button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.card-text{
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; 
+    font-family: 'Segoe UI';
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
